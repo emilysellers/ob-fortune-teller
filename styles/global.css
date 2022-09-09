@@ -35,14 +35,14 @@ footer {
 }
 
 img {
-    width: 500px;
+    width: 350px;
     border-radius: 50%;
 }
 #question {
     display: grid;
 }
 
-#ask-container {
+.ask-container {
     display: flex;
     flex-direction: column;
 }

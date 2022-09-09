@@ -1,12 +1,3 @@
-// import functions and grab DOM elements
-
-// let state
-
-// set event listeners
-// get user input
-// use user input to update state
-// update DOM to reflect the new state
-
 const answers = [
     'Yes, definitely',
     'It is certain',
@@ -34,6 +25,8 @@ const resetButton = document.getElementById('reset-button');
 
 const askContainer = document.getElementById('ask-container');
 const fortuneContainer = document.getElementById('fortune-container');
+
+const fortune = document.getElementById('fortune');
 
 askButton.addEventListener('click', () => {
     const randNum = Math.floor(Math.random() * answers.length);

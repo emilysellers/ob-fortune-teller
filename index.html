@@ -22,17 +22,17 @@
         </header>
 
         <main>
-            <div id="ask-container">
+            <div id="ask-container" class="ask-container">
                 <p>What is your question for the Magic 8 Ball?</p>
                 <label for="question">
                     <input type="text" name="question" />
                     <button id="ask-button">Ask the 8 Ball</button>
                 </label>
-                <img src="./assets/8-ball.jpeg" alt="magic 8 ball" />
+                <img src="./assets/8-ball.jpeg" alt="magic 8 ball" id="8-ball-img" />
             </div>
             <div id="fortune-container" class="hide">
-                <h2>The Magic 8 Ball says...</h2>
-                <p id="fortune"></p>
+                <p>The Magic 8 Ball says...</p>
+                <h2 id="fortune"></h2>
                 <button id="reset-button">Play again</button>
             </div>
         </main>
