@@ -1,13 +1,13 @@
 :root {
     --background: rgb(224, 234, 247);
-    --header-background: white;
+    --header-background: rgb(186, 223, 186);
     --footer-background: rgb(243, 242, 242);
 }
 
 body {
     height: 100vh;
-    font-family: 'Rubik', san-serif;
-    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faf7f7;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
@@ -28,8 +28,25 @@ footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+img {
+    width: 500px;
+    border-radius: 50%;
+}
+#question {
+    display: grid;
+}
+
+#ask-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
 }
