@@ -25,3 +25,30 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+## Plan
+
+# HTML
+
+-   p for question text
+-   text input for user question
+-   button to submit
+-   image of 8 ball
+-   p for random answer
+-   button to ask again
+
+# Events
+
+-   button click
+    -   hide question, button and 8 ball image
+    -   display fortune div
+    -   display "ask again" button
+-   "ask again" button click
+    -   hide fortune div
+    -   display ask div
+
+# State
+
+-   selected fortune
+
+![](./wireframe.png)
